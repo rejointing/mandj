@@ -15,4 +15,15 @@ $("#update_user").submit(function(event){
     })
 
     console.log(data);
+
+    var request = {
+        "url":`http://localhost:8080/api/users/${data.id}`,
+        "method":"PUT",
+        "data":data
+    }
+
+    $.ajax(request).done(function(response){
+        alert("Data Updated Successfully!");
+    })
+
 })
