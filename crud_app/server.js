@@ -18,6 +18,9 @@ app.use(morgan('tiny'));
 //mongodb connection
 connectDB(uri);
 
+app.get('/ourwedding', (req,res) => {
+    res.send('<h1>Our Story<h1>')
+})
 //parse request to body-parser
 app.use(bodyparser.urlencoded({extended:true}))
 
