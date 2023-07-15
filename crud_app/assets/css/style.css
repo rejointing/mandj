@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
 
 :root {
-    --dark: #2b2d42;
+    --dark: #303a44;
     --light: #adb5bd;
     --border: #dee2e6;
     --border-btn: #edf2f4;
 }
 
-
+footer {
+    background-color: #69ac988e;
+    color: var(--dark);
+    padding: 20px;
+    text-align: center;
+}
 
 * {
     padding:0;
@@ -19,6 +24,8 @@ a {
     text-decoration:none;
     font-family: 'EB Garamond', serif;
 }
+
+
 
 .container {
     max-width: 1024px;
@@ -61,7 +68,7 @@ a {
 }
 
 .text-gradient {
-    background: linear-gradient(to right, #8e2de2, #3e2de9);
+    background: linear-gradient(to right, #42638f, #58a9b8);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -69,7 +76,7 @@ a {
 
 
 #header nav {
-    background-color: #C6B59C;
+    background-color: #69ac988e;
     padding: 1.5em 0;
     width: 100%;
 }
@@ -114,7 +121,7 @@ table {
 }
 
 .table tr:hover{
-    background-color: #C6B59C;
+    background-color: #69ac988e;
 }
 
 .table tr:hover td>a{
