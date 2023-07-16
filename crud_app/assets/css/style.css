@@ -31,6 +31,7 @@ a {
 .container {
     max-width: 1024px;
     margin:auto;
+    position: -webkit-sticky;
 }
 
 .about {
@@ -86,6 +87,9 @@ a {
     background-color: #69ac988e;
     padding: 1.5em 0;
     width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 #site-main {
