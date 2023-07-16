@@ -20,6 +20,7 @@ footer {
     box-sizing:border-box;
 }
 
+
 a {
     text-decoration:none;
     font-family: 'EB Garamond', serif;
@@ -84,6 +85,7 @@ a {
 #site-main {
     margin-top:8em;
     font-family: 'EB Garamond', serif;
+    background-image: image("crud_app/assets/img/ZJ_main.jpg");
 }
 
 #site-main .container .box-nav > a {
@@ -214,18 +216,18 @@ table {
 }
 
 .radio input[type='radio']:checked+.radio-label:before{
-    background-color: #C6B59C;
-    box-shadow: inset 0 0 0 4px #e9ecef;
+    background-color: var(--light);
+    box-shadow: inset 0 0 0 4px #58a9b8;
 }
 
 .radio input[type='radio']:focus+.radio-label:before{
     outline: none;
-    border-color: #C6B59C;
+    border-color: var(--border);
 }
 
 .radio input[type='radio']:disabled+.radio-label:before{
     box-shadow: inset 0 0 0 4px #e9ecef;
-    border-color: #b4b4b4;
+    border-color: var(--border-btn);
     background-color: #b4b4b4;
 }
 
@@ -233,7 +235,7 @@ table {
 #add_user .form-group .btn{
     width: 100%;
     padding: .9em 1em;
-    background-color: #C6B59C;
+    background-color: #69ac988e;
     border: none;
     font-family: 'EB Garamond', serif;
     font-size: 1em;
