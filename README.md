@@ -4,3 +4,5 @@
 # In your terminal make sure to run the following commands:
 # cd crud_app -> npm init -y -> npm i express morgan nodemon ejs body-parser dotenv mongoose axios
 
+# Enjoy!
+
