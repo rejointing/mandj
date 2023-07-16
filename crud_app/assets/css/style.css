@@ -33,6 +33,12 @@ a {
     margin:auto;
 }
 
+.about {
+    margin-top:3em;
+    font-family: 'EB Garamond', serif;
+    color: #184e6ad8;
+}
+
 .nav-brand {
     font-size:1.5em;
     font-weight:bold;
@@ -85,7 +91,6 @@ a {
 #site-main {
     margin-top:8em;
     font-family: 'EB Garamond', serif;
-    background-image: image("crud_app/assets/img/ZJ_main.jpg");
 }
 
 #site-main .container .box-nav > a {
